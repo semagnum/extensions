@@ -1,0 +1,96 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "blint",
+      "name": "BLint",
+      "tagline": "Project-level quality checks for Blender",
+      "version": "1.3.3",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "3.6.0",
+      "copyright": [
+        "2022-2024 Spencer Magnusson"
+      ],
+      "permissions": {
+        "files": "Read/write to JSON config files on disk"
+      },
+      "tags": [
+        "Scene"
+      ],
+      "archive_url": "./blint-1.3.3.zip",
+      "archive_size": 49245,
+      "archive_hash": "sha256:9bac5e5410483a95359d57e97f2fbee28bd36fb262f90ead27a57167450ae12b"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "ColorFromMaterial",
+      "name": "Material Viewport Color from Nodes",
+      "tagline": "Convert shader color to viewport color",
+      "version": "0.1.3",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "tags": [
+        "Material"
+      ],
+      "archive_url": "./ColorFromMaterial-0.1.3.zip",
+      "archive_size": 23002,
+      "archive_hash": "sha256:bb0e68146c79fe2c4b5c1c6e91cb5945c9303dc3a4f9920d2e1ba60d5561a936"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "scenecomplexity",
+      "name": "Scene Complexity",
+      "tagline": "Analyze various aspects of scenes to determine complexity",
+      "version": "0.0.10",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "copyright": [
+        "2023-2024 Spencer Magnusson"
+      ],
+      "tags": [
+        "Scene",
+        "User Interface"
+      ],
+      "archive_url": "./scenecomplexity-0.0.10.zip",
+      "archive_size": 140463,
+      "archive_hash": "sha256:38c23f330df68d41bd51a3ba182f25ca107bf4464c17dfbb2c00971147e9c57a"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "shot_matcher",
+      "name": "Shot Matcher",
+      "tagline": "Apply color matching between images or clips in the compositor",
+      "version": "3.5.4",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.0.0",
+      "website": "https://github.com/semagnum/shot_matcher",
+      "copyright": [
+        "2024 Spencer Magnusson"
+      ],
+      "tags": [
+        "Compositing"
+      ],
+      "archive_url": "./shot_matcher-3.5.4.zip",
+      "archive_size": 41921,
+      "archive_hash": "sha256:de07056135ef2e5899404a918933424bddf261e5319b5373bb0adac239083f65"
+    }
+  ]
+}
