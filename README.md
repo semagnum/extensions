@@ -4,7 +4,7 @@ Here you can add a repository for all my free extensions!
 
 Just add the following URL as a remote repository:
 
-> https://semagnum.github.io/extensions/add_ons/index.json
+> [https://semagnum.github.io/extensions/add_ons/index.json](https://semagnum.github.io/extensions/add_ons/index.json)
 
 If you need them offline, you can download them individually,
 either from their own repositories or the zip files included in this repository.
