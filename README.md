@@ -1,8 +1,9 @@
 ## My Official Extensions Repository
 
-Here you can add a repository for all my free extensions!
+Welcome!
+Here you can add my repository in Blender 4.2 to access all my free extensions.
 
-Just add the following URL as a remote repository:
+Just add the following URL in Blender as a remote repository:
 
 > [https://semagnum.github.io/extensions/add_ons/index.json](https://semagnum.github.io/extensions/add_ons/index.json)
 
