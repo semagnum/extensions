@@ -30,3 +30,8 @@ to quickly generate viewport materials colors based on the shader nodes
 
 [Scene Complexity](https://github.com/semagnum/blender-scene-complexity)
 to analyze the complexity of your scene and make better optimization decisions
+
+### Others I'm too lazy to make a thumbnail for
+
+- [Separate with Instances](https://github.com/semagnum/separate_with_instances)
+  extends the mesh separate operator to add separated pieces to other mesh instances.
