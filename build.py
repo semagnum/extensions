@@ -61,23 +61,44 @@ def build():
         logger.debug('Found {} repositories'.format(len(repositories)))
 
     # in packages directory, search for module folders
+    updated = False
     for url in repositories:
         cloned_folder = git_clone(url)
         full_path = Path(__file__).parent / cloned_folder
         if not full_path.exists():
             raise FileNotFoundError(full_path)
 
-        cmd = [
-            blender_executable,
-            '--command', 'extension', 'build',
-            '--source-dir={}'.format(full_path),
-            '--output-dir={}'.format(addon_directory)
-        ]
-        logger.info('Running: {}'.format(' '.join(cmd)))
-        subprocess.run(cmd, stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
+        manifest = full_path / 'blender_manifest.toml'
+        if not manifest.exists():
+            raise FileNotFoundError(manifest)
+
+        manifest_str = manifest.read_text()
+        split_manifest = manifest_str.split('\n')
+        id_line = next(line.strip() for line in split_manifest if line.strip().startswith('id'))
+        version_line = next(line.strip() for line in split_manifest if line.strip().startswith('version'))
+
+        id = id_line.split('"')[-2]
+        version = version_line.split('"')[-2]
+        zip_file = addon_directory / '{}-{}.zip'.format(id, version)
+
+        logger.debug('Searching for {}...'.format(zip_file))
+        if zip_file.exists():
+            logger.info('Skipping {} {}...'.format(cloned_folder, version))
+        else:
+            cmd = [
+                blender_executable,
+                '--command', 'extension', 'build',
+                '--source-dir={}'.format(full_path),
+                '--output-dir={}'.format(addon_directory)
+            ]
+            logger.info('Running: {}'.format(' '.join(cmd)))
+            subprocess.run(cmd, stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
+            updated = True
 
         logger.debug('Deleting temp folder {}...'.format(cloned_folder))
         shutil.rmtree(full_path, onerror=onerror)
+
+    return updated
 
 def build_json():
     """Builds JSON file for all zip files in extensions folder."""
@@ -100,6 +121,5 @@ if __name__ == '__main__':
         shutil.rmtree(get_add_ons_dir(), ignore_errors=True)
         os.mkdir(get_add_ons_dir())
 
-    if not parsed_args.json_only:
-        build()
-    build_json()
+    if parsed_args.json_only or build():
+        build_json()
