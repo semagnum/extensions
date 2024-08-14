@@ -1,4 +1,5 @@
 https://github.com/semagnum/blint
 https://github.com/semagnum/blender-scene-complexity
 https://github.com/semagnum/Material_Color_From_Nodes
+https://github.com/semagnum/separate_with_instances
 https://github.com/semagnum/shot_matcher

@@ -71,6 +71,30 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "separate_with_instances",
+      "name": "Separate with Instances",
+      "tagline": "Separate objects and re-place instanced meshes",
+      "version": "0.0.2",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "3.6.0",
+      "website": "https://github.com/semagnum/separate_with_instances",
+      "copyright": [
+        "2024 Spencer Magnusson"
+      ],
+      "tags": [
+        "Mesh",
+        "Object"
+      ],
+      "archive_url": "./separate_with_instances-0.0.2.zip",
+      "archive_size": 464912,
+      "archive_hash": "sha256:e37a33802bd6f9edd3604d7f00e70b7992c2f9680345f7668f84da25dd0b212b"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "shot_matcher",
       "name": "Shot Matcher",
       "tagline": "Apply color matching between images or clips in the compositor",
