@@ -123,3 +123,4 @@ if __name__ == '__main__':
 
     if parsed_args.json_only or build():
         build_json()
+        subprocess.run(['git', 'add', 'add_ons'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL)
