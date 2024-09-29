@@ -62,6 +62,7 @@ def build():
 
     # in packages directory, search for module folders
     updated = False
+    to_delete = []
     for url in repositories:
         cloned_folder = git_clone(url)
         full_path = Path(__file__).parent / cloned_folder
@@ -95,8 +96,12 @@ def build():
             subprocess.run(cmd, stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
             updated = True
 
-        logger.debug('Deleting temp folder {}...'.format(cloned_folder))
-        shutil.rmtree(full_path, onerror=onerror)
+        to_delete.append(full_path)
+
+    for full_path in to_delete:
+        if full_path.exists():
+            logger.debug('Deleting temp folder {}...'.format(cloned_folder))
+            shutil.rmtree(full_path, onerror=onerror)
 
     return updated
 
