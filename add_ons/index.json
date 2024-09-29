@@ -48,6 +48,28 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "copy_render_command",
+      "name": "Copy Render Command",
+      "tagline": "Copies command to render file from the Command Line",
+      "version": "1.0.0",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "permissions": {
+        "clipboard": "Copy render command"
+      },
+      "tags": [
+        "Render"
+      ],
+      "archive_url": "./copy_render_command-1.0.0.zip",
+      "archive_size": 16615,
+      "archive_hash": "sha256:0018e36af871e330c5051c16f01d872fff264c6ddbd0bb1e249ff57e47402079"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "scenecomplexity",
       "name": "Scene Complexity",
       "tagline": "Analyze various aspects of scenes to determine complexity",
