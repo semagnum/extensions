@@ -33,5 +33,9 @@ to analyze the complexity of your scene and make better optimization decisions
 
 ### Others I'm too lazy to make a thumbnail for
 
+- [Copy Render Command](https://projects.blender.org/SMagnusson/copy_render_command)
+  generates a command to render your current file,
+  and copies it to your clipboard.
+  Paste it into your favorite terminal, and enjoy command line rendering!
 - [Separate with Instances](https://github.com/semagnum/separate_with_instances)
   extends the mesh separate operator to add separated pieces to other mesh instances.
