@@ -12,6 +12,12 @@ either from their own repositories or the zip files included in this repository.
 
 ## Includes
 
+[<img src="images/nview_lite.png" width="960">](https://projects.blender.org/SMagnusson/nview_lite)
+
+[nView Lite](https://projects.blender.org/SMagnusson/nview_lite),
+a demo version of [nView](https://blendermarket.com/products/nview-v3/)
+to simplify camera-based scene optimization.
+
 [<img src="images/shot_matcher.png" width="960">](https://github.com/semagnum/shot_matcher)
 
 [Shot Matcher](https://github.com/semagnum/shot_matcher)

@@ -29,6 +29,31 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "blint",
+      "name": "BLint",
+      "tagline": "Project-level quality checks for Blender",
+      "version": "1.4.0",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "3.6.0",
+      "copyright": [
+        "2022-2024 Spencer Magnusson"
+      ],
+      "permissions": {
+        "files": "Read/write to JSON config files on disk"
+      },
+      "tags": [
+        "Scene"
+      ],
+      "archive_url": "./blint-1.4.0.zip",
+      "archive_size": 51336,
+      "archive_hash": "sha256:f7489dbe60b5224286a15b1377051186ca00dbae058b3677424bc25c19cbb246"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "ColorFromMaterial",
       "name": "Material Viewport Color from Nodes",
       "tagline": "Convert shader color to viewport color",
@@ -67,6 +92,29 @@
       "archive_url": "./copy_render_command-1.0.0.zip",
       "archive_size": 16615,
       "archive_hash": "sha256:0018e36af871e330c5051c16f01d872fff264c6ddbd0bb1e249ff57e47402079"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "nview_lite",
+      "name": "nView Lite",
+      "tagline": "Optimize scenes based on what can be seen by the camera",
+      "version": "1.0.0",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "3.6.0",
+      "website": "https://blendermarket.com/products/nview-v3",
+      "copyright": [
+        "2024 Spencer Magnusson"
+      ],
+      "tags": [
+        "3D View"
+      ],
+      "archive_url": "./nview_lite-1.0.0.zip",
+      "archive_size": 55647,
+      "archive_hash": "sha256:f084fdd6bf4086708e827741b1eb956b77c2d462ed4b05980f655715c086455a"
     },
     {
       "schema_version": "1.0.0",
