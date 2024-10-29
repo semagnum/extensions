@@ -73,7 +73,9 @@ def build():
         if not manifest.exists():
             raise FileNotFoundError(manifest)
 
-        manifest_str = manifest.read_text()
+        with open(manifest, 'r') as f:
+            manifest_str = f.read()
+
         split_manifest = manifest_str.split('\n')
         id_line = next(line.strip() for line in split_manifest if line.strip().startswith('id'))
         version_line = next(line.strip() for line in split_manifest if line.strip().startswith('version'))
