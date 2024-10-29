@@ -46,7 +46,7 @@ def get_add_ons_dir():
 def git_clone(url):
     """Git clones url, returning the new folder name."""
     logger.info('Cloning {}...'.format(url))
-    subprocess.run(['git', 'clone', url], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    subprocess.run(['git', 'clone', '--depth', '1', url], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
     return url.split('/')[-1]
 
