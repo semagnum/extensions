@@ -100,7 +100,7 @@ def build():
 
     for full_path in to_delete:
         if full_path.exists():
-            logger.debug('Deleting temp folder {}...'.format(cloned_folder))
+            logger.debug('Deleting temp folder {}...'.format(full_path))
             shutil.rmtree(full_path, onerror=onerror)
 
     return updated
