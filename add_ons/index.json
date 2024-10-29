@@ -118,6 +118,28 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "save_with_prefix",
+      "name": "Save with Prefix",
+      "tagline": "Adds reminder to save with a prefix",
+      "version": "0.0.1",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "permissions": {
+        "files": "Save, rename, and delete .blend files"
+      },
+      "tags": [
+        "User Interface"
+      ],
+      "archive_url": "./save_with_prefix-0.0.1.zip",
+      "archive_size": 15217,
+      "archive_hash": "sha256:572fcd00a0faa1b4e54036dad73073e18fffef87d0ae62b0a0362b02799bd885"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "scenecomplexity",
       "name": "Scene Complexity",
       "tagline": "Analyze various aspects of scenes to determine complexity",
