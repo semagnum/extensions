@@ -54,6 +54,31 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "blint",
+      "name": "BLint",
+      "tagline": "Project-level quality checks for Blender",
+      "version": "1.4.1",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "3.6.0",
+      "copyright": [
+        "2022-2024 Spencer Magnusson"
+      ],
+      "permissions": {
+        "files": "Read/write to JSON config files on disk"
+      },
+      "tags": [
+        "Scene"
+      ],
+      "archive_url": "./blint-1.4.1.zip",
+      "archive_size": 51604,
+      "archive_hash": "sha256:c82bdb424ef829ca078bb746920b952a92fd4d77e95333727b4b8df7c3c158f5"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "ColorFromMaterial",
       "name": "Material Viewport Color from Nodes",
       "tagline": "Convert shader color to viewport color",
