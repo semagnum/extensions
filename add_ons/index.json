@@ -104,6 +104,31 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "blint",
+      "name": "BLint",
+      "tagline": "Project-level quality checks for Blender",
+      "version": "1.4.3",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "3.6.0",
+      "copyright": [
+        "2022-2024 Spencer Magnusson"
+      ],
+      "permissions": {
+        "files": "Read/write to JSON config files on disk"
+      },
+      "tags": [
+        "Scene"
+      ],
+      "archive_url": "./blint-1.4.3.zip",
+      "archive_size": 51805,
+      "archive_hash": "sha256:c3c33b7beb026e07d821643b8db23680af6c84765d8a6cf46aabf82953e5b3ab"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "ColorFromMaterial",
       "name": "Material Viewport Color from Nodes",
       "tagline": "Convert shader color to viewport color",
@@ -120,6 +145,25 @@
       "archive_url": "./ColorFromMaterial-0.1.3.zip",
       "archive_size": 23002,
       "archive_hash": "sha256:bb0e68146c79fe2c4b5c1c6e91cb5945c9303dc3a4f9920d2e1ba60d5561a936"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "ColorFromMaterial",
+      "name": "Material Viewport Color from Nodes",
+      "tagline": "Convert shader color to viewport color",
+      "version": "0.1.4",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "tags": [
+        "Material"
+      ],
+      "archive_url": "./ColorFromMaterial-0.1.4.zip",
+      "archive_size": 23046,
+      "archive_hash": "sha256:6def59e75d88c2e7949e621506b8c46007ccc9a278d9a65335f4abb02e5551da"
     },
     {
       "schema_version": "1.0.0",
