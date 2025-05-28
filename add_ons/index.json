@@ -189,6 +189,28 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "copy_render_command",
+      "name": "Copy Render Command",
+      "tagline": "Copies command to render file from the Command Line",
+      "version": "1.0.1",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "permissions": {
+        "clipboard": "Copy render command"
+      },
+      "tags": [
+        "Render"
+      ],
+      "archive_url": "./copy_render_command-1.0.1.zip",
+      "archive_size": 16620,
+      "archive_hash": "sha256:73d5d964cb171f8014002a177363bef5d5e0cfeb7d4b5e4ba3b2ed6489b2a4ed"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "nview_lite",
       "name": "nView Lite",
       "tagline": "Optimize scenes based on what can be seen by the camera",
