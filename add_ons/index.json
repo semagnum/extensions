@@ -233,6 +233,28 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "native_cycles_denoise",
+      "name": "Native Cycles Denoise",
+      "tagline": "Cycles's native temporal denoising available in the render menu",
+      "version": "1.0.0",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+Blender@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "permissions": {
+        "files": "Export denoised render images"
+      },
+      "tags": [
+        "Render"
+      ],
+      "archive_url": "./native_cycles_denoise-1.0.0.zip",
+      "archive_size": 15955,
+      "archive_hash": "sha256:a23e23bc073ce86682716c4c3f51eb2535ef7dd570e11e9523b99e4338949000"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "nview_lite",
       "name": "nView Lite",
       "tagline": "Optimize scenes based on what can be seen by the camera",
