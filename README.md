@@ -45,3 +45,5 @@ to analyze the complexity of your scene and make better optimization decisions
   Paste it into your favorite terminal, and enjoy command line rendering!
 - [Separate with Instances](https://github.com/semagnum/separate_with_instances)
   extends the mesh separate operator to add separated pieces to other mesh instances.
+- [Native Cycles Denoise](https://github.com/semagnum/native_cycles_denoise)
+  exposes Cycles's native temporal denoising to the render menu.
