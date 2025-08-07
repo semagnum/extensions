@@ -233,6 +233,28 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "copy_render_command",
+      "name": "Copy Render Command",
+      "tagline": "Copies command to render file from the Command Line",
+      "version": "1.0.3",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "permissions": {
+        "clipboard": "Copy render command"
+      },
+      "tags": [
+        "Render"
+      ],
+      "archive_url": "./copy_render_command-1.0.3.zip",
+      "archive_size": 16732,
+      "archive_hash": "sha256:6da0464bf87e797abc084d24122c9c77f2efc91192bee70bd4f7e86ca2543042"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "native_cycles_denoise",
       "name": "Native Cycles Denoise",
       "tagline": "Cycles's native temporal denoising available in the render menu",
