@@ -322,6 +322,29 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "save_your_autosave",
+      "name": "Save Your Autosave",
+      "tagline": "Detect active modal operators that may prevent autosave",
+      "version": "1.0.0",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/semagnum/save_your_autosave",
+      "permissions": {
+        "files": "Read and open Python files"
+      },
+      "tags": [
+        "User Interface"
+      ],
+      "archive_url": "./save_your_autosave-1.0.0.zip",
+      "archive_size": 42694,
+      "archive_hash": "sha256:c3bc420ffb90fd9952c1073ca71c7f26ca38700923b54b5647ba5f41fd00855a"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "scenecomplexity",
       "name": "Scene Complexity",
       "tagline": "Analyze various aspects of scenes to determine complexity",
