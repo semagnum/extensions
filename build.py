@@ -88,15 +88,18 @@ def build():
         if zip_file.exists():
             logger.info('Skipping {} {}...'.format(cloned_folder, version))
         else:
-            cmd = [
-                blender_executable,
-                '--command', 'extension', 'build',
-                '--source-dir={}'.format(full_path),
-                '--output-dir={}'.format(addon_directory)
-            ]
-            logger.info('Running: {}'.format(' '.join(cmd)))
-            subprocess.run(cmd, stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
-            updated = True
+            try:
+                cmd = [
+                    blender_executable,
+                    '--command', 'extension', 'build',
+                    '--source-dir={}'.format(full_path),
+                    '--output-dir={}'.format(addon_directory)
+                ]
+                logger.info('Running: {}'.format(' '.join(cmd)))
+                subprocess.run(cmd, stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
+                updated = True
+            except Exception as e:
+                logger.error('Failed to build {}, skipping: {}'.format(cloned_folder, e))
 
         to_delete.append(full_path)
 
