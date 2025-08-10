@@ -91,6 +91,7 @@ def build():
             try:
                 cmd = [
                     blender_executable,
+                    '--factory-startup',
                     '--command', 'extension', 'build',
                     '--source-dir={}'.format(full_path),
                     '--output-dir={}'.format(addon_directory)
