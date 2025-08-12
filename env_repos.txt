@@ -1,10 +1,10 @@
-https://github.com/semagnum/blint
-https://github.com/semagnum/blender-scene-complexity
+https://codeberg.org/semagnum/blint
+https://codeberg.org/semagnum/scenecomplexity
 https://projects.blender.org/SMagnusson/copy_render_command
 https://projects.blender.org/SMagnusson/save_with_prefix
-https://github.com/semagnum/Material_Color_From_Nodes
-https://github.com/semagnum/native_cycles_denoise
+https://codeberg.org/semagnum/ColorFromMaterial
+https://codeberg.org/semagnum/native_cycles_denoise
 https://projects.blender.org/SMagnusson/nview_lite
-https://github.com/semagnum/save_your_autosave
-https://github.com/semagnum/separate_with_instances
-https://github.com/semagnum/shot_matcher
+https://codeberg.org/semagnum/save_your_autosave
+https://codeberg.org/semagnum/separate_with_instances
+https://codeberg.org/semagnum/shot_matcher
