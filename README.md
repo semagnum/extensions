@@ -5,7 +5,7 @@ Here you can add my repository in Blender 4.2 to access all my free extensions.
 
 Just add the following URL in Blender as a remote repository:
 
-> [https://spencermagnusson.com/extensions/add_ons/index.json](https://spencermagnusson.com/extensions/add_ons/index.json)
+> [https://extensions.spencermagnusson.com/add_ons/index.json](https://extensions.spencermagnusson.com/add_ons/index.json)
 
 If you need them offline, you can download them individually,
 either from their own repositories or the zip files included in this repository.
