@@ -192,6 +192,25 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "color_picker_pro",
+      "name": "Color Picker Pro",
+      "tagline": "Extends color picker with a few extra features",
+      "version": "1.1.1",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "3.2.0",
+      "tags": [
+        "3D View"
+      ],
+      "archive_url": "./color_picker_pro-1.1.1.zip",
+      "archive_size": 24698,
+      "archive_hash": "sha256:1a6f7fe98c6baf9a2a63cf25bb676c3bf95ef21370af1f7c4d380359a6d3cf1e"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "copy_render_command",
       "name": "Copy Render Command",
       "tagline": "Copies command to render file from the Command Line",
