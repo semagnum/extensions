@@ -192,6 +192,25 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "ColorFromMaterial",
+      "name": "Material Viewport Color from Nodes",
+      "tagline": "Convert shader color to viewport color",
+      "version": "0.1.5",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "tags": [
+        "Material"
+      ],
+      "archive_url": "./ColorFromMaterial-0.1.5.zip",
+      "archive_size": 23113,
+      "archive_hash": "sha256:c46b2c0fd33f33c81f7226d6b8619eb9d4972a81f29387c78720db844d99ab5a"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "color_picker_pro",
       "name": "Color Picker Pro",
       "tagline": "Extends color picker with a few extra features",
@@ -296,6 +315,28 @@
       "archive_url": "./copy_render_command-1.0.3.zip",
       "archive_size": 16732,
       "archive_hash": "sha256:6da0464bf87e797abc084d24122c9c77f2efc91192bee70bd4f7e86ca2543042"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "copy_render_command",
+      "name": "Copy Render Command",
+      "tagline": "Copies command to render file from the Command Line",
+      "version": "1.0.4",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "permissions": {
+        "clipboard": "Copy render command"
+      },
+      "tags": [
+        "Render"
+      ],
+      "archive_url": "./copy_render_command-1.0.4.zip",
+      "archive_size": 17630,
+      "archive_hash": "sha256:0070545cc08f21e30ba68eeba18b7cf7c543cff9fd09ab6e45c932ad9d70c498"
     },
     {
       "schema_version": "1.0.0",
