@@ -237,6 +237,25 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "ColorFromMaterial",
+      "name": "Material Viewport Color from Nodes",
+      "tagline": "Convert shader color to viewport color",
+      "version": "0.2.0",
+      "type": "add-on",
+      "maintainer": "Spencer Magnusson <semagnum+blenderextensions@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "tags": [
+        "Material"
+      ],
+      "archive_url": "./ColorFromMaterial-0.2.0.zip",
+      "archive_size": 23284,
+      "archive_hash": "sha256:7a9b30d1f94087509c2c6d89e955460e1e8538fbaf15f4432ff7f2990d7aed08"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "color_picker_pro",
       "name": "Color Picker Pro",
       "tagline": "Extends color picker with a few extra features",
